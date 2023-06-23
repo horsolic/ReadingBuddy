@@ -147,7 +147,7 @@ fun AboutScreen(context: Context, navController: NavHostController) {
                                 .build()
                             customTabsIntent.intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
 
-                            customTabsIntent.launchUrl(context, Uri.parse(Constants.GITHUB_URL))
+                            customTabsIntent.launchUrl(context, Uri.parse(Constants.GITHUB_URL_USER))
                         },
                     text = "Helena Orsolic",
                     fontSize = 20.sp,
