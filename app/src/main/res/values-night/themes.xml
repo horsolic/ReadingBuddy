@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Readingbuddy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF40916C</item>
+        <item name="colorPrimaryVariant">#FF949494</item>
+        <item name="colorOnPrimary">#FF40916C</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF40916C</item>
+        <item name="colorSecondaryVariant">#FFFFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFFFF</item>
+        <!-- Status bar color. -->
+<!--        <item name="statusBarBackground">@color/statusBarDark</item>-->
+<!--        <item name="android:statusBarColor">@color/statusBarDark</item>-->
+        <!-- Navigation bar color. -->
+<!--        <item name="android:navigationBarColor">@color/navigationBarDark</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.ReadingBuddyV2.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+</resources>
